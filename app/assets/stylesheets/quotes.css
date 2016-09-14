@@ -1,0 +1,17 @@
+#container {
+  width: 94%;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 3%;
+}
+
+.text {
+  font-size: 3em;
+}
+
+.author {
+  font-size: 2em;
+}

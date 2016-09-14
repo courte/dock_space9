@@ -1,0 +1,6 @@
+<div id="quotes">
+  <% @quotes.each do |quote| %>
+    <p class="text"><%= quote.text %></p>
+    <p clss="author">&mdash; <%= quote.author %></p>
+  <% end %>
+</div>
